@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">rxjava</string>
+    <string name="toast_compete">加载完成</string>
+</resources>
