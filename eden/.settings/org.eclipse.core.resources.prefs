@@ -1,9 +1,0 @@
-eclipse.preferences.version=1
-encoding//src/com/eden/dao/impl/CommentDaoImplJDBC.java=gbk
-encoding//src/com/eden/service/impl/CommentServiceImpl.java=gbk
-encoding//src/com/eden/servlet/AddUserServlet.java=gbk
-encoding//src/com/eden/servlet/DeleteCommentServlet.java=gbk
-encoding//src/com/eden/servlet/DeleteUserServlet.java=gbk
-encoding//src/com/eden/servlet/ShowCommentServlet.java=UTF-8
-encoding//src/com/eden/servlet/ShowUserServlet.java=gbk
-encoding//src/com/eden/servlet/UpdateUserServlet.java=gbk
