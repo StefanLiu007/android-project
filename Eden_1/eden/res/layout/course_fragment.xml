@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/bottom_linear3"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/course_fragment_word"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/press_5"
+            android:textColor="#a9a9a9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_linear4"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/course_fragment_shipin"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/press_6"
+            android:textColor="#a9a9a9" />
+    </LinearLayout>
+
+</LinearLayout>

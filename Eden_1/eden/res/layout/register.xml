@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:textColor="#CD5C5C"
+            android:text="注册账号" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hengxian" />
+         <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="48dp"		       
+		        android:layout_marginTop="30dp"		
+		        android:orientation="horizontal"
+		        android:background="#0000" >
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_reg_login_account"
+	            />
+	        <EditText 
+	            android:id="@+id/register_account"
+	            android:layout_weight="5"
+	            android:inputType="phone"
+	            android:hint="请输入手机号"
+	            
+	            android:layout_width="0dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/edit_bg" 
+	            />
+
+          </LinearLayout>
+	        
+	       <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="48dp"		       
+		        android:layout_marginTop="20dp"		
+		        android:orientation="horizontal"
+		        android:background="#0000" >
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginTop="10dp"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_reg_login_pwd"
+	            />
+	        <EditText
+	            android:id="@+id/register_passwd" 
+	            android:hint="请输入6~16位密码"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+	            android:layout_height="fill_parent"
+	            android:password="true"
+	            android:background="@drawable/edit_bg" 
+	            />
+	        	
+	        </LinearLayout>
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="48dp"		       
+		        android:layout_marginTop="20dp"		
+		        android:orientation="horizontal"
+		        android:background="#0000" >
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginTop="10dp"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_reg_login_pwd"
+	            />
+	        <EditText 
+	            android:id="@+id/confirm_passwd"
+	            android:layout_weight="5"
+	            android:hint="确认密码"
+	            android:layout_width="0dp"
+	            android:password="true"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/edit_bg" 
+	            />
+
+          </LinearLayout>
+          <Button
+	          android:id="@+id/register"
+	          android:layout_width="match_parent"
+	          android:layout_marginTop="20dp"
+	          android:layout_height="wrap_content"
+	          android:background="#32CD32"
+	          android:textSize="25sp"
+	          android:text="注册" />
+	        
+	       
+
+</LinearLayout>

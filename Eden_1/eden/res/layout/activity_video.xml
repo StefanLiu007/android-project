@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    >
+<LinearLayout
+    android:id="@+id/ideo_linear"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+    
+        <VideoView
+        android:layout_margin="5dp"
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       
+         />
+        
+    
+    
+  <LinearLayout
+        android:id="@+id/ll_share_bar"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="2dp"
+       
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/tb_collect"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableStart="@drawable/selector_btn_collect"
+            android:padding="15dp"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+        <ImageView
+            android:id="@+id/v_comment11"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_share_bg"
+            android:contentDescription="@null"
+            android:src="@drawable/gba" />
+
+        <ImageView
+            android:id="@+id/v_down11"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_share_bg"
+            android:contentDescription="@null"
+            android:src="@drawable/eyj" />
+
+        
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout
+     android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ideo_linear"
+        android:layout_margin="5dp"
+        android:background="#FFEFDB">
+   <include layout="@layout/include_pulltorefreshlistview"/>
+</LinearLayout>
+
+
+</RelativeLayout>

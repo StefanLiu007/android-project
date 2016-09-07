@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:duration="300">
+
+    <!--透明度渐变,0表示完全透明,1表示完全不透明-->
+    <alpha
+        android:fromAlpha="0.5"
+        android:toAlpha="0.0" />
+
+</set>

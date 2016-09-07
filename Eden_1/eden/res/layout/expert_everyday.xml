@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9dp"
+    android:background="#E3E3E3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F8FF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/famous_doctor_recommend" />
+
+            <com.eden.view.CircleImageView
+                android:id="@+id/expecial_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:src="@drawable/krs" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/expecial_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center|top"
+            android:text="姓名"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="简介:" />
+
+        <TextView
+            android:id="@+id/expecial_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:text="具体内容" />
+
+        <TextView
+            android:id="@+id/expecial_suggest_count"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="right|center"
+            android:text="推荐数"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F8FF" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/comment_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="3dp" >
+
+        <TextView
+            android:id="@+id/expecial_comment_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/light_blue"
+            android:text="姓名:" />
+
+        <TextView
+            android:id="@+id/expecial_comment1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:maxLines="1"
+            android:text="评论1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F8FF" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/comment_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="3dp" >
+
+        <TextView
+            android:id="@+id/expecial_comment_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/light_blue"
+            android:text="姓名:" />
+
+        <TextView
+            android:id="@+id/expecial_comment2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:maxLines="1"
+            android:text="评论2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="伊甸园好专家:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

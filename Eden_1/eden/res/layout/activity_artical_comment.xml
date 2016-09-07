@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newsContentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wangyibg"
+    android:orientation="vertical"
+    android:clickable="true" >
+
+    <RelativeLayout
+        android:id="@+id/artical_comment_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/include_comment_head" />
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+   <include layout="@layout/include_pulltorefreshlistview"></include>
+   
+   </LinearLayout>
+<LinearLayout
+    android:id="@+id/artical_commentEditL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_alignParentBottom="true"
+    android:background="@color/wangyibg"
+    >
+	<EditText 
+	    android:id="@+id/artical_commentEdit"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    
+	    android:textSize="14sp"
+	    android:drawablePadding="8dp"
+	    android:layout_margin="6dp"
+	    android:hint="评论楼主"/>
+	<ImageButton 
+	    android:id="@+id/artical_commentSend"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/comment_btn"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginRight="4dp"/>
+</LinearLayout>
+   
+
+</LinearLayout>

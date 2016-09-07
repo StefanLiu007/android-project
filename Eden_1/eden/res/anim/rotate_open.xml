@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:duration="300">
+
+    <!--表示从0度旋转到-90度,pivotX和pivotY均为50%表示旋转中心点是组件自身的中心.-->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="-90"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+
+</set>
