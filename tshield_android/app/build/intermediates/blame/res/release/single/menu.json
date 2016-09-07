@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\menu\\gesture.xml",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\menu\\gesture.xml"
+    }
+]

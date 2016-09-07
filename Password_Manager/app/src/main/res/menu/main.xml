@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+    <!--android:id="@+id/synchronization"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="同步"-->
+    <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/lock"
+        android:orderInCategory="100"
+        android:title="锁定"
+        app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/help"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="帮助"-->
+    <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom" />
+</menu>

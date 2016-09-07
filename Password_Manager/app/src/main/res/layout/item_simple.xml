@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.leohuang.password_manager.ui.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:foreground="@drawable/button_rect_list_normal"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@id/smContentView"
+        layout="@layout/item_simple_content"/>
+
+    <include
+        android:id="@id/smMenuView"
+        layout="@layout/item_simple_menu"/>
+
+</com.example.leohuang.password_manager.ui.SwipeMenuLayout>

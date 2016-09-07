@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toopbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_coloured"
+    tools:context="com.example.leohuang.password_manager.activity.SyncMethodsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_blue"
+        toopbar:navigationIcon="@drawable/arrow_left"
+        toopbar:popupTheme="@style/AppTheme.PopupOverlay"
+        toopbar:theme="@style/AppTheme.AppBarOverlay"
+        toopbar:title="Wifi Method"
+        toopbar:titleTextColor="@color/white"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="@dimen/padding"
+        android:text="同步的信息的位置"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="@dimen/padding"
+        android:text="选择下列同步的选项，如果你还没有进行同步选择，你能读取我们的引导"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size" />
+
+    <ListView
+        android:id="@+id/lv_sync_methods"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_description2"
+        android:layout_marginTop="20dp"
+        android:divider="@null"
+        android:paddingLeft="@dimen/padding" />
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemlay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="88dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp" >
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:contentDescription="@null"
+        android:src="@drawable/acount_icon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/yytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="nn"
+            android:textColor="#666666"
+            android:textSize="@dimen/text15" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="nn"
+            android:textColor="#000000"
+            android:textSize="@dimen/text22" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_onclicktouch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/imageDrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/iconfont_iconpaixu1" />
+
+</RelativeLayout>

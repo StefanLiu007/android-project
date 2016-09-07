@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_coloured"
+    tools:context="com.example.leohuang.password_manager.activity.SafeSettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_blue"
+        toolbar:navigationIcon="@drawable/arrow_left"
+        toolbar:popupTheme="@style/AppTheme.PopupOverlay"
+        toolbar:theme="@style/AppTheme.AppBarOverlay"
+        toolbar:title="设置"
+        toolbar:titleTextColor="@color/white"></android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/large_padding"
+                    android:layout_marginTop="@dimen/large_padding"
+                    android:text="PIN码"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/nornal_text_size" />
+
+                <Switch
+                    android:id="@+id/switch_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/large_padding"
+                    android:layout_marginRight="@dimen/padding"
+                    android:layout_marginTop="@dimen/large_padding"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/tv_change_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/large_padding"
+                android:paddingTop="@dimen/large_padding"
+                android:text="修改PIN码"
+                android:textColor="@color/light_gray"
+                android:textSize="@dimen/nornal_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/tv_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/large_padding"
+                android:paddingTop="@dimen/large_padding"
+                android:text="修改主密码"
+                android:textColor="@color/black"
+                android:textSize="@dimen/nornal_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/large_padding"
+                    android:layout_marginTop="@dimen/large_padding"
+                    android:text="退出时锁定"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/nornal_text_size" />
+
+                <Switch
+                    android:id="@+id/switch_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/large_padding"
+                    android:layout_marginRight="@dimen/padding"
+                    android:layout_marginTop="@dimen/large_padding"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/large_padding"
+                android:paddingTop="@dimen/large_padding">
+
+                <TextView
+                    android:id="@+id/tv_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自动锁定"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/nornal_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lock"
+                    android:layout_marginTop="5dp"
+                    android:text="处于开启即闲置状态10分钟后"
+                    android:textColor="@color/light_gray"
+                    android:textSize="@dimen/small_text_size" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_clip_board"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/large_padding"
+                android:paddingTop="@dimen/large_padding">
+
+                <TextView
+                    android:id="@+id/tv_clip_board"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自动清除剪贴板"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/nornal_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_clip_board_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_clip_board"
+                    android:layout_marginTop="5dp"
+                    android:text="从不"
+                    android:textColor="@color/light_gray"
+                    android:textSize="@dimen/small_text_size" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

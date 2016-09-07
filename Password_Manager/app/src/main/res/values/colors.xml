@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff31c5ea</color>
+    <!--基础的大色块颜色-->
+    <color name="base_blue_light">#03a9ef</color>
+    <color name="base_blue">#436EEE</color>
+    <color name="base_blue_dark">#0277bd</color>
+
+    <!-- 黑色-->
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <!-- 米色-->
+    <color name="cream_coloured">#F9F9F9</color>
+    <!-- 灰色-->
+    <color name="gray_text">#bdbdbd</color>
+    <color name="dark_gray">#757575</color>
+    <color name="side_back">#91989b</color>
+    <color name="light_gray">#99bababa</color>
+    <!-- 标签样式-->
+    <color name="primary">#F44336</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="green">#9AFF9A</color>
+    <!-- Shadow -->
+    <color name="search_shadow_layout">#80000000</color>
+    <color name="red">#ffff4444</color>
+
+    <color name="side_bar_text">#4A4A4A</color>
+    <color name="edit_bg">#EFEFF4</color>
+    <color name="darker_gray">#9b9b9b</color>
+    <color name="theme_accent">@color/colorAccent</color>
+    <color name="list_background_normal">#FCFCFC</color>
+    <color name="list_background_secondary_normal">#F2F2F2</color>
+    <color name="text">#212121</color>
+    <color name="grid_foreground_selected">#B331c5ea</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="secondary_text_transparent_70">#B3727272</color>
+    <color name="chrome_grey">#F2F2F2</color>
+</resources>

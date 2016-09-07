@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="新建标签"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"
+        android:padding="5dp"/>
+
+    <com.example.leohuang.password_manager.tag.TagCloudLayout
+        android:id="@+id/cloud_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:lineSpacing="10dp"
+        app:tagSpacing="15dp"
+        android:layout_below="@id/add_btn"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/add_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/cloud_label"-->
+        <!--android:layout_below="@id/top1"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="dhbfhsvskjhn"-->
+        <!--android:layout_alignParentRight="true"/>-->
+</RelativeLayout>

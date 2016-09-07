@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!--添加字段的头-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_coloured">
+
+    <TextView
+        android:id="@+id/tv_field_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字段名称"
+        android:textColor="@color/base_blue"
+        android:textSize="@dimen/small_text_size" />
+
+    <EditText
+        android:id="@+id/et_field_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_field_name"
+        android:layout_marginTop="@dimen/inner_padding"
+        android:background="@drawable/et_focus_layer"
+        android:hint="输入字段名"
+        android:paddingBottom="@dimen/inner_padding"
+        android:textColorHint="@color/gray_text" />
+
+    <TextView
+        android:id="@+id/tv_field_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_field_name"
+        android:layout_marginTop="@dimen/padding"
+        android:text="字段类型"
+        android:textColor="@color/base_blue"
+        android:textSize="@dimen/small_text_size" />
+
+    <Spinner
+        android:id="@+id/spinner_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_field_type"
+        android:entries="@array/add_field_type" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_field"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/gray_text"
+        android:padding="2dp"
+        android:text="默认字段"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size" />
+</RelativeLayout>

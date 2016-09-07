@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_coloured"
+    tools:context="com.example.leohuang.password_manager.activity.ModelChooseActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/topbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_text"
+                android:padding="@dimen/inner_padding"
+                android:text="会籍"
+                android:textColor="@color/black"
+                android:textSize="@dimen/small_text_size" />
+
+            <TextView
+                android:id="@+id/tv_empty_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/inner_padding"
+                android:padding="@dimen/inner_padding"
+                android:text="新建项目"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/tv_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/inner_padding"
+                android:background="@color/gray_text"
+                android:padding="@dimen/inner_padding"
+                android:text="默认模板"
+                android:textColor="@color/black"
+                android:textSize="@dimen/small_text_size" />
+
+            <com.example.leohuang.password_manager.ui.CustomListView
+                android:id="@+id/lv_model"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/inner_padding" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

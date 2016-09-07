@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--DiaplayItenInfo的头部文件-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/padding"
+    android:layout_marginRight="@dimen/padding"
+    android:layout_marginTop="@dimen/padding">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/type_password" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_toEndOf="@+id/iv_icon"
+        android:text="密码"
+        android:textColor="@color/black"
+        android:textSize="@dimen/larger_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/padding"
+        android:text="2016-04-13 04:14:45"
+        android:textColor="@color/gray_text"
+        android:textSize="@dimen/small_text_size" />
+</RelativeLayout>

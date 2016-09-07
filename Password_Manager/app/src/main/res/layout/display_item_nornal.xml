@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--DisplayItemInfo一般的显示-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/padding"
+    android:layout_marginRight="@dimen/padding"
+    android:layout_marginTop="@dimen/padding"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textColor="@color/base_blue"
+        android:textSize="@dimen/small_text_size" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="2016-04-13 04:14:45"
+        android:textSize="@dimen/nornal_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/inner_padding"
+        android:background="@color/gray_text" />
+</LinearLayout>

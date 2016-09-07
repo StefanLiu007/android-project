@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leohuang.password_manager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".activity.InputMainKeyActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SecondActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.DataLoggingActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activity.SafeSettingActivity" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.ChangePINActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activity.ModelChooseActivity" />
+        <activity android:name=".activity.AddFieldActivity" />
+        <activity android:name=".activity.AddTagActivity" />
+        <activity android:name=".activity.FirstLoginActivity" />
+        <activity
+            android:name=".activity.MasterPasswordActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activity.SyncMethodsActivity" />
+        <activity android:name=".activity.SyncSettingActivity" />
+        <activity android:name=".activity.WifiSyncClientActivity" />
+        <activity android:name=".activity.OpenWifiSyncServiceActivity" />
+        <activity android:name=".activity.WifiSyncServerActivity" />
+        <activity android:name=".activity.SyncConfirmActivity" />
+        <activity
+            android:name=".activity.DisplayItemInfo"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".service.UDPServerService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.UDPClientService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TCPServerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.DropBoxSyncActivity" />
+
+        <service
+            android:name=".service.ClipDataClearService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TagEditorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.CheckSecretStrengthActivity" />
+        <activity android:name=".activity.SearchActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Password_Manager</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="SearchMenu">Search</string>
+    <string name="Strength">强度：</string>
+    <string name="length">长度:</string>
+    <string name="low">低</string>
+    <string name="medium">中</string>
+    <string name="high">高</string>
+    <string name="tag_text">tag</string>
+    <string name="search">Search</string>
+    <string name="male">男</string>
+    <string name="fale">女</string>
+    <string name="commit">提交</string>
+    <string name="sex">性别</string>
+    <string name="collection">收藏夹</string>
+    <string name="serret">密码生成</string>
+    <string name="label">标签夹</string>
+    <string name="brower">浏览器</string>
+    <string name="setting">设置</string>
+    <string name="account">类别</string>
+    <string name="classify_account">所有项目</string>
+    <string name="cab_title_x">Selection (%1$d)</string>
+    <string name="menu_search"></string>
+    <string name="all_label">所有标签</string>
+    <string name="add_label">添加标签</string>
+    <string name="submit">提交</string>
+    <string name="edit">编辑标签</string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toopbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.leohuang.password_manager.activity.SyncSettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_blue"
+        toopbar:navigationIcon="@drawable/arrow_left"
+        toopbar:popupTheme="@style/AppTheme.PopupOverlay"
+        toopbar:theme="@style/AppTheme.AppBarOverlay"
+        toopbar:title="Wifi Method"
+        toopbar:titleTextColor="@color/white"></android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rl_sync_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:padding="@dimen/large_padding">
+
+        <TextView
+            android:id="@+id/tv_sync_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="同步"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nornal_text_size" />
+
+        <Switch
+            android:id="@+id/switch_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray" />
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_auto_sync"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <!--android:padding="@dimen/large_padding">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_auto_sync"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:text="自动同步"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/nornal_text_size" />-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/checkbox_auto_sync"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:checked="true"-->
+    <!--android:clickable="false"-->
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/light_gray" />-->
+
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_use_3g"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <!--android:padding="@dimen/large_padding">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_use_3g"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:text="使用蜂窝数据同步"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/nornal_text_size" />-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/checkbox_use_3g"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:checked="true"-->
+    <!--android:clickable="false"-->
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/light_gray" />-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_toast"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <!--android:padding="@dimen/large_padding">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_toast"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:text="同步完成提示"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/nornal_text_size" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_toast_des"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@id/tv_toast"-->
+    <!--android:layout_marginTop="@dimen/inner_padding"-->
+    <!--android:text="同步完成后显示弹出式通知"-->
+    <!--android:textColor="@color/light_gray"-->
+    <!--android:textSize="@dimen/nornal_text_size" />-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/checkbox_toast"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:checked="true"-->
+    <!--android:clickable="false"-->
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/light_gray" />-->
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lock">
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>3分钟</item>
+        <item>4分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>60分钟</item>
+        <item>从不</item>
+    </string-array>
+
+    <string-array name="clear_clip">
+        <item>30秒</item>
+        <item>60秒</item>
+        <item>90秒</item>
+        <item>2分钟</item>
+        <item>3分钟</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="add_field_type">
+        <item>密码</item>
+        <item>文本</item>
+        <item>文件</item>
+        <item>网址</item>
+        <item>文本域</item>
+        <item>邮箱</item>
+        <item>数字</item>
+        <item>日期</item>
+        <item>颜色</item>
+        <item>邮编</item>
+    </string-array>
+
+    <string-array name="example_field">
+        <item>用户名</item>
+        <item>密码</item>
+        <item>网址</item>
+        <item>名称</item>
+        <item>电话</item>
+        <item>手机</item>
+        <item>电子邮件</item>
+    </string-array>
+    <string-array name="bank6">
+        <item>储蓄</item>
+        <item>货币市场</item>
+        <item>其他</item>
+        <item>信用额度</item>
+        <item>支票</item>
+        <item>ATM</item>
+    </string-array>
+    <string-array name="type15">
+        <item>American Express</item>
+        <item>Diners Club</item>
+        <item>Discover</item>
+        <item>JCB</item>
+        <item>Maestro</item>
+        <item>MasterCard</item>
+        <item>Solo</item>
+        <item>Switch</item>
+        <item>Visa</item>
+        <item>Visa Electron</item>
+    </string-array>
+    <string-array name="sex53">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="sex82">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="sex43">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="data97">
+        <item>未知</item>
+        <item>其他</item>
+        <item>DB2</item>
+        <item>FileMaker</item>
+        <item>Microsoft Access</item>
+        <item>MS SQL Server</item>
+        <item>MySQL</item>
+        <item>Oracle</item>
+        <item>PostgreSQL</item>
+        <item>SQLite</item>
+    </string-array>
+    <string-array name="wireless121">
+        <item>未知无线安全</item>
+        <item>无</item>
+        <item>WEP</item>
+        <item>WPA</item>
+        <item>WPA2个人</item>
+        <item>WPA2企业</item>
+    </string-array>
+    <string-array name="type183">
+        <item>IMAP</item>
+        <item>POP3</item>
+        <item>POP3或IMAP</item>
+    </string-array>
+    <string-array name="ssl194">
+        <item>未知</item>
+        <item>NO</item>
+        <item>SI</item>
+    </string-array>
+    <string-array name="ssl188">
+        <item>未知</item>
+        <item>NO</item>
+        <item>SI</item>
+    </string-array>
+    <string-array name="Verification189">
+        <item>未知</item>
+        <item>密码</item>
+        <item>无</item>
+        <item>Kerberos版本4</item>
+        <item>Kerberos版本5(GSSAPI)</item>
+        <item>Kerberos POP(KPOP)</item>
+        <item>MD5质询响应/NTLM</item>
+    </string-array>
+    <string-array name="Verification195">
+        <item>未知</item>
+        <item>密码</item>
+        <item>无</item>
+        <item>Kerberos版本4</item>
+        <item>Kerberos版本5(GSSAPI)</item>
+        <item>Kerberos POP(KPOP)</item>
+        <item>MD5质询响应/NTLM</item>
+    </string-array>
+</resources>

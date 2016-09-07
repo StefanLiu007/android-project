@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/for_gone"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/base_blue">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/list_icon" />
+    <com.example.leohuang.password_manager.ui.ClearEditText
+        android:id="@+id/search_edit"
+        android:layout_toRightOf="@id/img_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="请输入网址"
+        android:textColorHint="#cac7c7"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/search_img" />
+
+
+    <TextView
+        android:id="@+id/openwindow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

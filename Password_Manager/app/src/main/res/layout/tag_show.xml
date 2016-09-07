@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+    <!--
+    自定义属性解释:
+        tagSpacing:各个标签之间的距离
+        lineSpacing:行间距
+    -->
+
+    <com.example.leohuang.password_manager.tag.TagCloudLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tagSpacing="15dp"
+        app:lineSpacing="10dp"/>
+
+</RelativeLayout>

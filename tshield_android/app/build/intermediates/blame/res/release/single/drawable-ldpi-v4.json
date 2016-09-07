@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\handadd_icon.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\handadd_icon.png"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\code_icon.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\code_icon.png"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\acount_icon.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\acount_icon.png"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\logo.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\logo_icon.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\logo_icon.png"
+    },
+    {
+        "merged": "C:\\project\\Password-Manager\\tshield_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\flash_back.png",
+        "source": "C:\\project\\Password-Manager\\tshield_android\\app\\src\\main\\res\\drawable-ldpi\\flash_back.png"
+    }
+]
